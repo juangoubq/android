@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_item_like"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_home_item_like"
+        android:title="发布" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/ic_home_item_like"
+        android:title="我的" />
+</menu>
