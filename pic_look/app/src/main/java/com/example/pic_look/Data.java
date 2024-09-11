@@ -6,6 +6,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class Data {
+    @SerializedName("record")
+    private Record record;
     @SerializedName("records")
     private List<Record> records;
     @SerializedName("total")
@@ -25,6 +27,10 @@ public class Data {
         return records;
     }
 
+    public  Record getRecord() {
+        return record;
+    }
+
     public int getTotal() {
         return total;
     }
@@ -37,10 +43,36 @@ public class Data {
         return current;
     }
 
+    private String id;
+    private String appKey;
+    private String username;
+    private String password;
+    private int sex;
+    private String introduce;
+    private String avatar;
+    private String createTime;
+    private String lastUpdateTime;
+    private boolean isFocus = false;
 
+    public String getUsername() {
+        return username;
+    }
+
+    public String getIntroduce() {
+        return introduce;
+    }
 
     public List<DraftItem> getDrafts() {
         List<DraftItem> drafts = Collections.emptyList();
         return drafts;
+    }
+
+    public boolean isHasFocus() {
+        return isFocus;
+    }
+
+    public void setHasFocus(boolean b) {
+        isFocus = b;
+        return ;
     }
 }

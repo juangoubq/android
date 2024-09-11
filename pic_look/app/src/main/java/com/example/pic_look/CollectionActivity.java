@@ -87,6 +87,7 @@ public class CollectionActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+
         @Override
         public void onResponse(@NonNull Call call, Response response) throws IOException {
             if (!response.isSuccessful()) {

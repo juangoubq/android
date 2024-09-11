@@ -1,4 +1,4 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home_item_like"

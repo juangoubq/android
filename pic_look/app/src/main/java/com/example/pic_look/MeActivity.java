@@ -53,7 +53,7 @@ public class MeActivity extends AppCompatActivity {
         // 初始化组件
         profileLayout = findViewById(R.id.profile_layout);
         profileImage = findViewById(R.id.profile_image);
-        profileUsername = findViewById(R.id.profile_username);
+        profileUsername = findViewById(R.id.profile_userid);
         releaseLayout = findViewById(R.id.release);
         aboutLayout = findViewById(R.id.about_layout);
         downloadsLayout = findViewById(R.id.downloads_layout);

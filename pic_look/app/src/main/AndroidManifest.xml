@@ -19,26 +19,26 @@
 
 
 <!--        <activity android:name=".CollectionsActivity" />-->
-<!--        <activity android:name=".MeActivity" />-->
-<!--        <activity-->
-<!--            android:name=".MainActivity"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-        <activity android:name=".MeActivity"
+        <activity android:name=".MeActivity" />
+        <activity
+            android:name=".SearchActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"/>
+<!--        <activity android:name=".MeActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <activity android:name=".SearchResultActivity"/>
         <activity android:name=".CollectionActivity" />
         <activity android:name=".LikesActivity" />
         <activity android:name=".FocusActivity"/>
@@ -46,6 +46,7 @@
         <activity android:name=".SettingsActivity" />
         <activity android:name=".AboutUsActivity" />
         <activity android:name=".DraftsActivity" />
+<!--        <activity android:name=".SearchResultActivity" />-->
 
     </application>
 

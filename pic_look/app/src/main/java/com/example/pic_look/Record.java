@@ -13,6 +13,8 @@ public class Record {
     private String imageCode;
     @SerializedName("title")
     private String title;
+    @SerializedName("introduce")
+    private String introduce;
     @SerializedName("content")
     private String content;
     @SerializedName("createTime")
@@ -124,5 +126,9 @@ public class Record {
 
     public void toggleLike() {
         hasLike = !hasLike;
+    }
+
+    public String getIntroduce() {
+        return introduce;
     }
 }
