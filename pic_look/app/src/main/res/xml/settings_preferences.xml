@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 修改用户信息 -->
+    <Preference
+        android:key="editProfileKey"
+        android:title="修改用户信息"
+        android:summary="编辑您的个人信息"/>
+
+    <!-- 关于我们 -->
+    <Preference
+        android:key="aboutUsKey"
+        android:title="关于我们"
+        android:summary="了解我们的更多信息" />
+
+    <!-- 退出登录 -->
+    <Preference
+        android:key="logoutKey"
+        android:title="退出登录"
+        android:summary="注销当前账户" />
+</PreferenceScreen>
